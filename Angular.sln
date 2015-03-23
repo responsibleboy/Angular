@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_NPR", "Angular_NPR\Angular_NPR.csproj", "{DD4F2466-D5AD-40C0-BE75-1A4C238D7785}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ng-newsletter-beginner-series", "http://localhost:61269", "{8CFA6EF1-BFDA-47D7-857B-CD24E97D3C98}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61269"
+		Debug.AspNetCompiler.PhysicalPath = "G:\GitSpace\ng-newsletter-beginner-series\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61269\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61269"
+		Release.AspNetCompiler.PhysicalPath = "G:\GitSpace\ng-newsletter-beginner-series\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61269\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "G:\GitSpace\ng-newsletter-beginner-series\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD4F2466-D5AD-40C0-BE75-1A4C238D7785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4F2466-D5AD-40C0-BE75-1A4C238D7785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4F2466-D5AD-40C0-BE75-1A4C238D7785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4F2466-D5AD-40C0-BE75-1A4C238D7785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFA6EF1-BFDA-47D7-857B-CD24E97D3C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA6EF1-BFDA-47D7-857B-CD24E97D3C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFA6EF1-BFDA-47D7-857B-CD24E97D3C98}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA6EF1-BFDA-47D7-857B-CD24E97D3C98}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="../angular-1.3.13/angular.js"></script>
+    <script src="js/myApp.js"></script>
+    <script src="js/myAppControllers.js"></script>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="personController">
+        <h1>{{person.name+" is a(an) "+person.job}}</h1>
+        <h1>{{person.sayHi()}}</h1>
+    </div>
+
+    <div ng-controller="fighterController">
+        <input ng-model="search" />
+        <ul>
+            <li ng-repeat="f in fighters | filter:search">
+                Name:{{f.name}}, Country:{{f.country}}
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
